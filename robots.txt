@@ -1,0 +1,15 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+Disallow: /js/
+Disallow: /css/
+Disallow: /logs/
+Disallow: /probando/
+
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /css/
+Disallow: /logs/
+Disallow: /probando/
+
+Sitemap: https://www.comunicaapp.com/sitemap.xml

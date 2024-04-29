@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-02KK59CQTL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-02KK59CQTL');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv='content-language' content='ro-ro'>
+    <meta name="description" content="ComunicaApp este un motor avansat de căutare cu pictograme care facilitează comunicarea cu persoanele cu dificultăți de comunicare.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ComunicaApp, pictograme, comunicare, dizabilitate, limbă, căutare">
+    <meta name="author" content="Juan Yepes Mateos">
+    <link rel="alternate" hreflang="es-es" href="https://www.comunicaapp.com/es/"/>
+    <link rel="alternate" hreflang="en-us" href="https://www.comunicaapp.com/en/"/>
+    <link rel="alternate" hreflang="en-uk" href="https://www.comunicaapp.com/en/"/>
+    <link rel="alternate" hreflang="ca-es" href="https://www.comunicaapp.com/ca/"/>
+    <link rel="alternate" hreflang="eu-es" href="https://www.comunicaapp.com/eu/"/>
+    <link rel="alternate" hreflang="gl-es" href="https://www.comunicaapp.com/gl/"/>
+    <link rel="alternate" hreflang="fr-fr" href="https://www.comunicaapp.com/fr/"/>
+    <link rel="alternate" hreflang="de-de" href="https://www.comunicaapp.com/de/"/>
+    <link rel="alternate" hreflang="ar" href="https://www.comunicaapp.com/ar/"/>
+    <link rel="alternate" hreflang="bg-bg" href="https://www.comunicaapp.com/bg/"/>
+    <link rel="alternate" hreflang="he-il" href="https://www.comunicaapp.com/he/"/>
+    <link rel="alternate" hreflang="hr-hr" href="https://www.comunicaapp.com/hr/"/>
+    <link rel="alternate" hreflang="hu-hu" href="https://www.comunicaapp.com/hu/"/>
+    <link rel="alternate" hreflang="it-it" href="https://www.comunicaapp.com/it/"/>
+    <link rel="alternate" hreflang="ko-kr" href="https://www.comunicaapp.com/ko/"/>
+    <link rel="alternate" hreflang="lt-lt" href="https://www.comunicaapp.com/lt/"/>
+    <link rel="alternate" hreflang="pl-pl" href="https://www.comunicaapp.com/pl/"/>
+    <link rel="alternate" hreflang="pt-br" href="https://www.comunicaapp.com/pt/"/>
+    <link rel="alternate" hreflang="pt-pt" href="https://www.comunicaapp.com/pt/"/>
+    <link rel="alternate" hreflang="ro-ro" href="https://www.comunicaapp.com/ro/"/>
+    <link rel="alternate" hreflang="ru-ru" href="https://www.comunicaapp.com/ru/"/>
+    <link rel="alternate" hreflang="zh-cn" href="https://www.comunicaapp.com/zh/"/>
+    <link rel="alternate" hreflang="zh-hk" href="https://www.comunicaapp.com/zh/"/>
+    <link rel="alternate" hreflang="zh-mo" href="https://www.comunicaapp.com/zh/"/>
+    <link rel="alternate" hreflang="zh-sg" href="https://www.comunicaapp.com/zh/"/>
+    <link rel="alternate" hreflang="zh-tw" href="https://www.comunicaapp.com/zh/"/>
+    <title id="tittle-bar">ComunicaApp - Traducător de pictograme</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <div id="languaje" class="ro" style="display:none;"></div>
+    <header>
+        <nav class="nav-bar">
+            <div class="dropdown">
+                <img src="../img/lang.png" class="dropbtn" alt="Icono de idioma">
+                <div class="dropdown-content">
+                    <div class="lang-option" id="es">Español</div>
+                    <div class="lang-option" id="ca">Català</div>
+                    <div class="lang-option" id="eu">Euskara</div>
+                    <div class="lang-option" id="gl">Galego</div>
+                    <div class="lang-option" id="en">English</div>
+                    <div class="lang-option" id="fr">Français</div>
+                    <div class="lang-option" id="de">Deutsch</div>
+                    <div class="lang-option" id="ar">عرب</div>
+                    <div class="lang-option" id="bg">български</div>
+                    <div class="lang-option" id="he">עִברִית</div>
+                    <div class="lang-option" id="hr">Hrvatski</div>
+                    <div class="lang-option" id="hu">Magyar</div>
+                    <div class="lang-option" id="it">Italiano</div>
+                    <div class="lang-option" id="ko">한국인</div>
+                    <div class="lang-option" id="lt">Lietuvių</div>
+                    <div class="lang-option" id="mk">македонски</div>
+                    <div class="lang-option" id="pl">Polski</div>
+                    <div class="lang-option" id="pt">Português</div>
+                    <div class="lang-option" id="ro">Română</div>
+                    <div class="lang-option" id="ru">Русский</div>
+                    <div class="lang-option" id="zh">简体中文</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1 id="tittle">Traducător de pictograme</h1>
+    <div class="container">
+        <input id="search-input" type="text" placeholder="Hai să vorbimk">
+        <button id="search-button">Căutare</button>
+    </div>
+    <div id="result"></div>
+    <div id="print-button-container">
+        <button id="print-button" class="hidden">Imprimare</button>
+        <button id="read-button" class="hidden">Citit</button>
+    </div>
+    <div id="about-us-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Acesta este un proiect non-profit care vizează facilitarea comunicării cu persoanele cu dizabilități. Suntem mândri să folosim baza de date extinsă de pictograme furnizată de ARASAAC. Și sperăm că va ajuta familiile aflate în nevoie.</br></br>Simbolurile pictografice utilizate sunt proprietatea Guvernului Aragonului și au fost create de Sergio Palao pentru ARASAAC (http://www.arasaac.org), care le distribuie sub o licență Creative Commons BY-NC-SA.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <img src="logo.png" alt="" class="logo">
+            <p id="pie-text">2023 - ComunicaApp</p>
+            <ul class="footer-links">
+                <!-- <li><a href="https://www.arasaac.org">ARASAAC</a></li> -->
+                <li><a id="about-us" href="#">Despre</a></li>
+                <li><a id="contact-us" href="mailto:administracion@comunicaapp.com">A lua legatura</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/translations.js"></script>
+</body>
+</html>
