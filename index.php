@@ -2,70 +2,70 @@
         $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
         switch ($lang){
             case "es":
-                header("Location:es/index.html");
+                header("Location: es/es.html");
                 break;
             case "ca":
-                header("Location: ca/index.html");
+                header("Location: ca/ca.html");
                 break;     
             case "eu":
-                header("Location: eu/index.html");
+                header("Location: eu/eu.html");
                 break;  
             case "gl":
-                header("Location: gl/index.html");
+                header("Location: gl/gl.html");
                 break;
             case "en":
-                header("Location: en/index.html");
+                header("Location: en/en.html");
                 break;
             case "fr":
-                header("Location: fr/index.html");
+                header("Location: fr/fr.html");
                 break;
             case "de":
-                header("Location: de/index.html");
+                header("Location: de/de.html");
                 break;
             case "ar":
-                header("Location: ar/index.html");
+                header("Location: ar/ar.html");
                 break;
             case "bg":
-                header("Location: bg/index.html");
+                header("Location: bg/bg.html");
                 break;
             case "he":
-                header("Location: he/index.html");
+                header("Location: he/he.html");
                 break;
             case "hr":
-                header("Location: hr/index.html");
+                header("Location: hr/hr.html");
                 break;
             case "hu":
-                header("Location: hu/index.html");
+                header("Location: hu/hu.html");
                 break;
             case "it":
-                header("Location: it/index.html");
+                header("Location: it/it.html");
                 break;
             case "ko":
-                header("Location: ko/index.html");
+                header("Location: ko/ko.html");
                 break;
             case "lt":
-                header("Location: lt/index.html");
+                header("Location: lt/lt.html");
                 break;
             case "mk":
-                header("Location: mk/index.html");
+                header("Location: mk/mk.html");
                 break;
             case "pl":
-                header("Location: pl/index.html");
+                header("Location: pl/pl.html");
                 break;
             case "pt":
-                header("Location: pt/index.html");
+                header("Location: pt/pt.html");
                 break;
             case "ro":
-                header("Location: ro/index.html");
+                header("Location: ro/ro.html");
                 break;
             case "ru":
-                header("Location: ru/index.html");
+                header("Location: ru/ru.html");
                 break;
             case "zh":
-                header("Location: zh/index.html");
+                header("Location: zh/zh.html");
                 break;
             default:
-                header("Location: en/index.html");
+                header("Location: en/en.html");
                 break;
         }   
 ?>
