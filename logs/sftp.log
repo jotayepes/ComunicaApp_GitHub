@@ -1,8 +1,0 @@
-Apr 29 16:52:36 10.71.56.0 u112646121 Connection from 10.71.56.0 port 26536 on 82.165.88.50 port 22 rdomain ""
-Apr 29 16:52:39 10.71.56.0 u112646121 Accepted password for u112646121 from 10.71.56.0 port 26536 ssh2
-Apr 29 16:52:39 10.71.56.0 u112646121 Starting session: subsystem 'sftp' for u112646121 from 10.71.56.0 port 26536 id 0
-Apr 29 16:52:39 10.71.56.0 u112646121 session opened for local user u112646121 from [10.71.56.0]
-Apr 29 16:53:18 10.71.56.0 u112646121 Connection from 10.71.56.0 port 21690 on 82.165.88.50 port 22 rdomain ""
-Apr 29 16:53:20 10.71.56.0 u112646121 Accepted password for u112646121 from 10.71.56.0 port 21690 ssh2
-Apr 29 16:53:20 10.71.56.0 u112646121 Starting session: subsystem 'sftp' for u112646121 from 10.71.56.0 port 21690 id 0
-Apr 29 16:53:20 10.71.56.0 u112646121 session opened for local user u112646121 from [10.71.56.0]
