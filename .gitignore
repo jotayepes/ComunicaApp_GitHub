@@ -3,3 +3,4 @@ robots.txt
 sitemap.xml
 BingSiteAuth.xml
 logs/
+.DS_Store
