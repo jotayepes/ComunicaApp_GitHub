@@ -74,13 +74,13 @@
 <html>
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-02KK59CQTL"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-02KK59CQTL');
+        gtag('config', 'G-');
     </script>
     <meta http-equiv='content-language' content='es-es'>
     <meta charset="UTF-8">
